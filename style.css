@@ -1,36 +1,13 @@
-h1 {
-
-    background-color: black;
-    color: red;
-    color: #000;
-
-    /*
-    color can be in the form of (#, #, #, opacityPercentage)
-    or it can be in the form of just #000;
-
-    */
-} 
 div {
-    width: 100%;
-    max-width: 200px;
-
-    height: 100%;
-    background-color: black;
-}
-.red {
-    color: red;
+    background-color: red;
+    color: white;
+    font-size: 24px;
 }
 
-.blue {
-    color: blue;
+@media (max-width: 576px) {
+    div {
+        
+        font-size: 16px;
+        
+    }
 }
-
-p {
-    color: black;
-}
-
-#title {
-    font-weight: bold;
-    color: purple;
-}
-
